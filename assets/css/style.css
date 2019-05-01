@@ -98,6 +98,10 @@ h1,h2,h3,h4,h5,h6 {
 .section-content {
 	padding: 100px 0px;
 }
+.section-content-2 {
+	padding: 50px 0px;
+}
+
 .orange-gred {
 	background: -moz-linear-gradient(left, #ee0979 0%, #ff6a00 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, #ee0979), color-stop(100%, #ff6a00));
@@ -115,6 +119,12 @@ h1,h2,h3,h4,h5,h6 {
 	color: #f11965;
 }
 
+section#features {
+    background-color: #f7f7f9;
+}
+h1.techno {
+    margin-left: 390px;
+}
 @-webkit-keyframes video-icon {
 	0% {
 		-webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
