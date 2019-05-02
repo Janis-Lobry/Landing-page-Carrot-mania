@@ -267,8 +267,28 @@ Start of features section
 End of features section
 -------------------------------------------------------------------------*/
 
+.main-menu-container.tbg .main-menu .navbar-default .navbar-nav>li>a.download-area {
+    font-size: x-large;
+}
+.main-menu-container.tbg .main-menu .navbar-default .navbar-nav>li>a.download-area:hover {
+  color: #88c000;
+}
+p.text-light {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.jumbotron.jumbotron-fluid.bg-dark {
+    background: black;
+	/*	margin-top: 150px; */
 
-
+}
+.img-game {
+	height: 450px;
+}
+.contact-map {
+    background: #f7f7f9;
+}
 /*-----------------------------------------------------------------------
 Start of about section
 -------------------------------------------------------------------------*/
@@ -671,7 +691,7 @@ Start of contact section
 .contact-info input,
 .contact-info-1 input,
 .contact-info textarea {
-	background-color: #f7f7f9;
+	background-color: #ffffff;
 	border: none;
 	padding: 20px;
 	border-radius: 5px;
@@ -765,7 +785,7 @@ Start of home-2 banner
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-bottom: 630px;
+	padding-bottom: 225px;
 	overflow: visible;
 	padding-top: 460px;
 	background-image: url("../img/banner/banner.png");
@@ -836,9 +856,7 @@ Start of home-2 banner
 	right: -50px;
 	top: 50px;
 }
-.extra-features-section.v-2 {
-	background-color: #f7f7f9;
-}
+
 .extra-features-section.v-2 .section-content {
 	padding-top: 100px;
 }
